@@ -6,9 +6,9 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+      <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" x:Name="lblMessage" VerticalOptions="CenterAndExpand"/>
+      <Button Text="Click Me" x:Name="btnChangeLabel" Clicked="btnChangeLabel_Clicked"/>
+      <Entry HorizontalOptions="Center" x:Name="entryUsername" Placeholder="Enter Your Name Here"/>
     </StackLayout>
 
 </ContentPage>
